@@ -45,11 +45,11 @@ int main()
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case for binary search?</h3>
 
 <h4>Answer: <i>base case:</i> is getting the middle of a list or a group <br>
-and matching it with the item that it's searching for,<br>
-<i>recursive case:</i> is starting with getting the middle of the whole list <br>
-then asking if it's high or low then getting the middle of the group <br>
-before or after the previous middle (before if it's heigh and after if it's low) <br>
-and so on until the base case gets terminated (matching the item).</h4>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and matching it with the item that it's searching for,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>recursive case:</i> is starting with getting the middle of the whole list <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then asking if it's high or low then getting the middle of the group <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;before or after the previous middle (before if it's heigh and after if it's low) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and so on until the base case gets terminated (matching the item).</h4>
 
 		    __________________________________________________________________
 
@@ -57,19 +57,19 @@ and so on until the base case gets terminated (matching the item).</h4>
 
 ### E4.5: Printing the value of each element in an array.
 
-#### Answer: ;
+#### Answer: O(n);
 
                 	          ----------------------------------------
 
 ### E4.6: Doubling the value of each element in an array.
 
-#### Answer: ;
+#### Answer: O(n);
 
                 	          ----------------------------------------
 
 ### E4.7: Doubling the value of just the first element in an array.
 
-#### Answer: ;
+#### Answer: O(1);
 
                 	          ----------------------------------------
 
@@ -77,7 +77,7 @@ and so on until the base case gets terminated (matching the item).</h4>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if your array is [2, 3, 7, 8, 10], you first multiply every element by 2,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then multiply every element by 3, then by 7, and so on.</h3>
 
-#### Answer: ;
+#### Answer: O(n²);
 
 		    __________________________________________________________________
         
