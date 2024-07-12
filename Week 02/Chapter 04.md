@@ -1,26 +1,55 @@
 ### E4.1: Write out the code for the earlier sum function.
 
-<h4>Answer: </h4>
+<h4>Answer: code:-<br>
+<code>#include <<x>stdio.h>
+int sum(int list[], int size){
+	if(size == 0) return 0;
+	else return *list+sum(list+1, size - 1);
+}
+int main()
+{
+	int lsum, list[3] = {2, 4, 6};
+	lsum = sum(list, sizeof(list)/sizeof(int));
+	printf("sum = %d", lsum);
+}</code></h4>
 
 		    __________________________________________________________________
 
 ### E4.2: Write a recursive function to count the number of items in a list.
 
-<h4>Answer: </h4>
+<h4>Answer: ....</h4>
 
 		    __________________________________________________________________
 
 ### E4.3: Find the maximum number in a list.
 
-<h4>Answer: </h4>
+<h4>Answer: code:-<br>
+<code>#include <<x>stdio.h>
+int maxn = 0;
+int max(int list[], int size){
+	if(size == 0) return maxn;
+	if(maxn < *list) maxn = *list;
+    return max(list + 1, size - 1);
+}
+int main()
+{
+	int lmax, list[3] = {2, 4, 6};
+	lmax = max(list, sizeof(list)/sizeof(int));
+	printf("max = %d", lmax);
+}</code></h4>
 
 		    __________________________________________________________________
 
 <h3>E4.4: Remember binary search from chapter 1? It’s a divide-and-conquer<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;algorithm, too. Can you come up with the base case and recursiveM<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;algorithm, too. Can you come up with the base case and recursive<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;case for binary search?</h3>
 
-<h4>Answer: </h4>
+<h4>Answer: <i>base case:</i> is getting the middle of a list or a group <br>
+and matching it with the item that it's searching for,<br>
+<i>recursive case:</i> is starting with getting the middle of the whole list <br>
+then asking if it's high or low then getting the middle of the group <br>
+before or after the previous middle (before if it's heigh and after if it's low) <br>
+and so on until the base case gets terminated (matching the item).</h4>
 
 		    __________________________________________________________________
 
