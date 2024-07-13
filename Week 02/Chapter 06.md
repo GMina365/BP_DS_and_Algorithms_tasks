@@ -2,7 +2,7 @@
 
 ### E6.1: Find the length of the shortest path from start to finish.
 
-#### Answer: ;
+#### Answer: <br><img src="E6 images/E6.1 all steps.png" Height="60%" Width="60%">
 
                 	          ----------------------------------------
 
