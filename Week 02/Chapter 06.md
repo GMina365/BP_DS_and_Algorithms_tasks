@@ -8,7 +8,7 @@
 
 ### E6.2: Find the length of the shortest path from “cab” to “bat”.
 
-#### Answer: ;
+#### Answer: <br><img src="E6 images/E6.2 all steps.png" Height="60%" Width="60%">
 
 		    __________________________________________________________________
 
