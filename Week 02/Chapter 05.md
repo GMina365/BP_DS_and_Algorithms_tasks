@@ -2,25 +2,25 @@
 
 ### E5.1: f(x) = 1 (Returns “1” for all input)
 
-#### Answer: ;
+#### Answer: consistent;
 
                 	          ----------------------------------------
 
 ### E5.2: f(x) = rand() (Returns a random number every time)
 
-#### Answer: ;
+#### Answer: inconsistent;
 
                 	          ----------------------------------------
 
 ### E5.3: f(x) = next_empty_slot() (Returns the index of the next empty slot in the hash table)
 
-#### Answer: ;
+#### Answer: inconsistent;
 
                 	          ----------------------------------------
 
 ### E5.4: f(x) = len(x) (Uses the length of the string as the index)
 
-#### Answer: ;
+#### Answer: consistent;
 
 		    __________________________________________________________________
 
