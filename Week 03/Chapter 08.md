@@ -26,13 +26,13 @@ solution?</h3>
 
 #### Answer: 
 
-
+                	          ------------------------------------
 
 ### E8.4:Breadth-first search 
 
 #### Answer: 
 
-
+                	          ------------------------------------
 
 ### E8.5:Dijkstra’s algorithm
 
