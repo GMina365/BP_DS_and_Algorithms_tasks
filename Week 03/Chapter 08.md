@@ -17,7 +17,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stay? Come up with a greedy strategy. Will that give you the optimal <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;solution?</h3>
 
-<h4>Answer: I would visit the place with the highest point value then visit the place with the next highest point value and so on. It won't give me the optimal solution.</h4>
+<h4>Answer: I would visit the place with the highest point value then visit the place with the next highest <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;point value and so on. It won't give me the optimal solution.</h4>
 
 		    __________________________________________________________________
 
