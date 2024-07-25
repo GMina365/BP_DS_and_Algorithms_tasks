@@ -1,7 +1,9 @@
 <h3>E9.1: Suppose you can steal another item: an MP3 player. It weighs 1 lb <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and is worth $1,000. Should you steal it?</h3>
 
-<h4>Answer: </h4>
+<h4>Answer: In the scenario where there is no iPhone I shouldn't steel it. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the scenario where there is an iPhone I should steal it because I could get <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;more than the previous value which was 4000$.</h4>
 
 		    __________________________________________________________________
 
