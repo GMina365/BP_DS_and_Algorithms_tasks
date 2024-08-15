@@ -2,7 +2,7 @@
 #define STACK_H_INCLUDED
 #define MAX_STACK 100
 
-typedef int Stack_Entry;
+typedef int Stack_Entry; // for working with int values
 
 typedef struct stack
 {
