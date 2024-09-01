@@ -1,13 +1,20 @@
-#ifndef QUEUE_H_INCLUDED
-#define QUEUE_H_INCLUDED
+#ifndef QUEUE_LINKED_H_INCLUDED
+#define QUEUE_LINKED_H_INCLUDED
 #include "../Global_lib/Global.h"
 
-typedef struct queue{
-    int front;
-    int rear;
+
+typedef struct Queue_node
+{
+    Queue_Entry data;
+    struct Queue_node* next;
+} Node;
+
+typedef struct queue
+{
+    Node* front;
+    Node* rear;
     int size;
-    Queue_Entry entry[MAXQUEUE];
-}Queue;
+} Queue;
 
 void CreatQueue(Queue *pq);
 
@@ -25,4 +32,4 @@ void TraverseQueue(Queue *pq, void (*pf)(Queue_Entry));
 
 void ClearQueue(Queue *pq);
 
-#endif // QUEUE_H_INCLUDED
+#endif // QUEUE_LINKED_H_INCLUDED
